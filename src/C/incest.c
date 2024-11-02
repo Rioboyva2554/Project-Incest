@@ -3,7 +3,7 @@
 int main() {
   char choice;
 
-  printf("Enter The Langauge You Need Incest In:\n[1]English\n[2]Germen\n[3]Japeneese\n[4]Polish\n[5]Hindi\n[6]Afrikaans\n[7]latin\n\n");
+  printf("Enter The Langauge You Need Incest In:\n[1]English\n[2]German\n[3]Japanese\n[4]Polish\n[5]Hindi\n[6]Afrikaans\n[7]Latin\n[8]Spanish\n\n");
   scanf("%c", &choice);
 
   switch (choice) {
@@ -27,6 +27,9 @@ int main() {
       break;
      case '7':
       printf("Latin:\tincestus\n");
+      break;
+    case '8'
+      printf("Spanish:\tincesto\n");
       break;
     default:
       printf("That's Not A Real Langauge");
