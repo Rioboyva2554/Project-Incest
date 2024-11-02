@@ -1,4 +1,4 @@
-echo "Enter The Langauge You Need Incest In:\n[1]English\n[2]German\n[3]Japenese\n[4]Polish\n[5]Hindi\n[6]Afrikaans\n[7]latin\n\n"
+echo "Enter The Langauge You Need Incest In:\n[1]English\n[2]German\n[3]Japenese\n[4]Polish\n[5]Hindi\n[6]Afrikaans\n[7]latin\n[8]Spanish\n\n"
 let choice = readLine(stdin)
 case choice
 of "1":
@@ -15,6 +15,8 @@ of "6":
   echo "Afrikaans:bloedskande"
 of "7":
   echo "Latin:incestus"
+of "8";
+  echo "Spanish:incesto"
 else:
   echo "That's not a real Language"
 
